@@ -1,0 +1,7 @@
+pandas 
+numpy
+seaborn
+-e .
+
+
+#-e. it will automaticaly tricigger setup.py
