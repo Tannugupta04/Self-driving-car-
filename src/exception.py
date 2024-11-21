@@ -1,6 +1,7 @@
 # for exception handlog purpose
 import sys
-import logging
+#import logging
+from src.logger import logging
 # sys libnrary:sys module in python prov9des various function and variables that are used to manipulate different parts of the python runtime enviornment\
 def error_message_details(error,error_detail:sys):
 # this error detail is present inside the sys
