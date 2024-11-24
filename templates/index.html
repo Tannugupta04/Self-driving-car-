@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Performance Indicators</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7fafc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 1.25rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+
+        .button {
+            padding: 12px 30px;
+            font-size: 1rem;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 40px;
+        }
+
+        .content {
+            margin-top: 40px;
+            text-align: left;
+            max-width: 800px;
+        }
+
+        .indicator-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .indicator-list li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .link {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Student Performance Dashboard!</h1>
+    <p>Our dashboard provides insights into the performance indicators of students. Here, you can explore data about student achievements and progress.</p>
+
+    <div class="content">
+        <h2>Key Student Performance Indicators:</h2>
+        <ul class="indicator-list">
+            <li>Overall Academic Performance (Grades)</li>
+            <li>Class Participation & Engagement</li>
+            <li>Attendance and Punctuality</li>
+            <li>Extracurricular Involvement</li>
+            <li>Personal Growth and Development</li>
+        </ul>
+        <p>These indicators provide a comprehensive view of a student's development and academic success.</p>
+    </div>
+
+    <button class="button" onclick="window.location.href='/app'">Access App</button>
+
+    <div class="footer">
+        <p>© 2024 Student Performance Dashboard. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
